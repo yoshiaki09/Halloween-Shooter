@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<META charset="shift-jis">
+	<title>ハロウィン風シューティングゲーム</title>
+	<style>
+#lifeBar {
+  display: inline-block;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 40px;
+  vertical-align: -0.2em;
+}
+#button{
+    display: inline-block;
+	margin : 3px ;
+	width: 160px;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #f7f7f7;
+    border-left: solid 6px #0000FF;/*左線*/
+    color: #ff7c5c;/*文字色*/
+    font-weight: bold;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+}
+
+#lifeBar::-webkit-progress-bar {
+    background: #ccc;
+}
+#lifeBar::-webkit-progress-value {
+  background-color: #00cc00;
+}
+
+</style>
+        <script src="common.js"></script>
+        <script src="main.js"></script>
+	<script src="character.js"></script>
+
+        <style>canvas {border: 1px solid gray;}</style>
+
+    </head>
+    <body>
+<h2>ハロウィン風シューティングゲーム</h2>
+<a href="index.html" class="button">ゲームスタート</a>
+
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<META charset="shift-jis">
+
+
+<style>
+
+
+#lifeBar {
+  display: inline-block;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 40px;
+  vertical-align: -0.2em;
+}
+#lifeBar::-webkit-progress-bar {
+    background: #ccc;
+}
+#lifeBar::-webkit-progress-value {
+  background-color: #00cc00;
+}
+
+</style>
+        <script src="common.js"></script>
+        <script src="main.js"></script>
+	<script src="character.js"></script>
+
+        <style>canvas {border: 1px solid gray;}</style>
+
+    </head>
+    <body>
+
+    <canvas id="screen"></canvas>
+
+
+        <p id="info"></p>
+<progress id="lifeBar" value="20" max="20" min="0" optimum="100"></progress>
+
+ 	<audio src="BGM3.mp3" id="sound"></audio>
+	<audio src="BGMp.mp3" id="sound2"></audio>
+	<audio src="SE4.wav" id="SE2"></audio>
+	<audio src="SE3.mp3" id="SE"></audio>
+        <audio src="SE5.mp3" id="SE3"></audio>
+
+
+
+
+    </body>
+</html>
